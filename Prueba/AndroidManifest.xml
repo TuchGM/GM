@@ -20,5 +20,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity 
+            android:label="Lyfe Cycle Test"
+            android:name=".lifeCycleTest"
+            android:configChanges="keyboard|keyboardHidden|orientation">
+        </activity>
     </application>
 </manifest>

@@ -14,7 +14,7 @@ import android.widget.ListView;
 
 public class PruebaActivity extends ListActivity {
 //	arreglo de los nombres de las activitys
-	String pruebas[]={"LifeCycleTest","SingleTouchTest","MutitouchTest",
+	String pruebas[]={"lifeCycleTest","SingleTouchTest","MutitouchTest",
 			"KeyTest","AcelerometerTest","AssestTest",
 			"ExternalStorajeTest","SoundPollTest","MedaPlayerTest",
 			"FullScreTest","RenderViewTest","FontTest","SufaceViewTest"};
@@ -36,11 +36,15 @@ public class PruebaActivity extends ListActivity {
 	@Override
 	protected void onListItemClick (ListView list, View view, int position, long id) {
 		super.onListItemClick(list, view, position, id);
+	//este metodo es llamado cuando se seleciona un elemento de la lista
 		String nombrePrueva = pruebas[position];
+	//obtenesmos el sting de elemento selecionado
 		try{
+	//usamos el tray para poder intentar llamar una activity atraves de un intent este se compone del nombre del paquete 
 			Class<?> clazz = Class.forName("Prueba.android.apis."+nombrePrueva);
 			Intent intent = new Intent(this,clazz);
 			startActivity(intent);
+	//se llama a la activity atraves de un inten
 		}catch(ClassNotFoundException e){
 			e.printStackTrace();
 		}
