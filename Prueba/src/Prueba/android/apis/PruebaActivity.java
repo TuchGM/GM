@@ -14,7 +14,7 @@ import android.widget.ListView;
 
 public class PruebaActivity extends ListActivity {
 //	arreglo de los nombres de las activitys
-	String pruebas[]={"lifeCycleTest","SingleTouchTest","MutitouchTest",
+	String pruebas[]={"lifeCycleTest","singleTouchTest","MutitouchTest",
 			"KeyTest","AcelerometerTest","AssestTest",
 			"ExternalStorajeTest","SoundPollTest","MedaPlayerTest",
 			"FullScreTest","RenderViewTest","FontTest","SufaceViewTest"};

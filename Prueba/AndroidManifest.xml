@@ -16,7 +16,6 @@
             android:configChanges="keyboard|keyboardHidden|orientation">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
@@ -24,6 +23,11 @@
             android:label="Lyfe Cycle Test"
             android:name=".lifeCycleTest"
             android:configChanges="keyboard|keyboardHidden|orientation">
+        </activity>
+        <activity 
+            android:label="Single Touch Test"
+            android:name=".singleTouchTest"
+            android:configChanges="keyboard|keyboardHidden">
         </activity>
     </application>
 </manifest>
