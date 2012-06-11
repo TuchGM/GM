@@ -34,6 +34,10 @@
             android:name=".MutitouchTest"
             android:configChanges="keyboard|keyboardHidden">
         </activity>
-        
+                <activity 
+            android:label="KeyTest"
+            android:name=".KeyTest"
+            android:configChanges="keyboard|keyboardHidden">
+        </activity>
     </application>
 </manifest>
