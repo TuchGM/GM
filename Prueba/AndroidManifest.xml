@@ -29,5 +29,11 @@
             android:name=".singleTouchTest"
             android:configChanges="keyboard|keyboardHidden">
         </activity>
+        <activity 
+            android:label="Mutitouch Test"
+            android:name=".MutitouchTest"
+            android:configChanges="keyboard|keyboardHidden">
+        </activity>
+        
     </application>
 </manifest>
