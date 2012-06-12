@@ -34,10 +34,16 @@
             android:name=".MutitouchTest"
             android:configChanges="keyboard|keyboardHidden">
         </activity>
-                <activity 
-            android:label="KeyTest"
+        <activity 
+            android:label="Key Test"
             android:name=".KeyTest"
-            android:configChanges="keyboard|keyboardHidden">
+            android:configChanges="keyboard|keyboardHidden|orientation">
         </activity>
+        <activity 
+            android:label="Acelerometer Test"
+            android:name=".AcelerometerTest"
+            android:configChanges="keyboard|keyboardHidden|orientation">
+        </activity>
+        
     </application>
 </manifest>
