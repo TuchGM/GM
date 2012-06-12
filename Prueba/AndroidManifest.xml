@@ -49,6 +49,40 @@
             android:name=".AssestTest"
             android:configChanges="keyboard|keyboardHidden|orientation">
         </activity>
-        
+        <activity 
+            android:label="External Storaje Test"
+            android:name=".ExternalStorajeTest"
+            android:configChanges="keyboard|keyboardHidden|orientation">
+        </activity>
+        <activity 
+            android:label="Sound Poll Test"
+            android:name=".SoundPollTest"
+            android:configChanges="keyboard|keyboardHidden|orientation">
+        </activity>
+        <activity 
+            android:label="Meda Player Test"
+            android:name=".MedaPlayerTest"
+            android:configChanges="keyboard|keyboardHidden|orientation">
+        </activity>        
+        <activity 
+            android:label="Full Screen Test"
+            android:name=".FullScreTest"
+            android:configChanges="keyboard|keyboardHidden|orientation">
+        </activity>        
+        <activity 
+            android:label="Render View Test"
+            android:name=".RenderViewTest"
+            android:configChanges="keyboard|keyboardHidden|orientation">
+        </activity>        
+        <activity 
+            android:label="Font Test"
+            android:name=".FontTest"
+            android:configChanges="keyboard|keyboardHidden|orientation">
+        </activity>
+        <activity 
+            android:label="Suface View Test"
+            android:name=".SufaceViewTest"
+            android:configChanges="keyboard|keyboardHidden|orientation">
+        </activity>
     </application>
 </manifest>
