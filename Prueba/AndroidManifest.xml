@@ -44,6 +44,11 @@
             android:name=".AcelerometerTest"
             android:configChanges="keyboard|keyboardHidden|orientation">
         </activity>
+        <activity 
+            android:label="Assest Test"
+            android:name=".AssestTest"
+            android:configChanges="keyboard|keyboardHidden|orientation">
+        </activity>
         
     </application>
 </manifest>
