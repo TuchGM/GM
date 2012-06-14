@@ -4,7 +4,7 @@ import android.app.Activity;
 import android.os.Bundle;
 import android.widget.TextView;
 
-public class MedaPlayerTest extends Activity {
+public class MediaPlayerTest  extends Activity {
 	StringBuilder builder = new StringBuilder();
 	TextView textview;
 	@Override

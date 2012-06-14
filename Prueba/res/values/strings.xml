@@ -3,5 +3,6 @@
 
     <string name="hello">Hello World, PruebaActivity!</string>
     <string name="app_name">Prueba</string>
+    <string name="play">Reproducir</string>
 
 </resources>

@@ -16,7 +16,7 @@ public class PruebaActivity extends ListActivity {
 //	arreglo de los nombres de las activitys
 	String pruebas[]={"lifeCycleTest","singleTouchTest","MutitouchTest",
 			"KeyTest","AcelerometerTest","AssestTest",
-			"ExternalStorajeTest","SoundPollTest","MedaPlayerTest",
+			"ExternalStorajeTest","SoundPollTest","AudioPlayer","MediaPlayerTest",
 			"FullScreTest","RenderViewTest","FontTest","SufaceViewTest"};
 //	este seria el constuctor de la aplicacion 
 	@Override  

@@ -59,9 +59,15 @@
             android:name=".SoundPollTest"
             android:configChanges="keyboard|keyboardHidden|orientation">
         </activity>
+        AudioPlayer
         <activity 
-            android:label="Meda Player Test"
-            android:name=".MedaPlayerTest"
+            android:label="Audio Player"
+            android:name=".AudioPlayer"
+            android:configChanges="keyboard|keyboardHidden|orientation">
+        </activity>
+        <activity 
+            android:label="Media Player Test"
+            android:name=".MediaPlayerTest"
             android:configChanges="keyboard|keyboardHidden|orientation">
         </activity>        
         <activity 
