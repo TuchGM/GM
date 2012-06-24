@@ -1,17 +1,14 @@
 package Prueba.android.apis;
 
-import android.app.Activity;
 import android.os.Bundle;
-import android.widget.TextView;
+import android.view.Window;
+import android.view.WindowManager;
 
-public class FullScreTest  extends Activity {
-	StringBuilder builder = new StringBuilder();
-	TextView textview;
+public class FullScreTest  extends singleTouchTest   {
 	@Override
 	public void onCreate(Bundle savedInstanceState){
+		requestWindowFeature(Window.FEATURE_NO_TITLE);
+		getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
 		super.onCreate(savedInstanceState);
-		textview = new TextView(this);
-		textview.setText("No lista");
-		setContentView(textview);
 	}
 }
